@@ -5,23 +5,28 @@
     <title>3D Layout</title>
     <link rel="stylesheet" href="styles.css" />
     <link href="https://fonts.googleapis.com/css?family=Arya" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Julee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julee" rel="stylesheet">
 </head>
 
 <body>
-    <div id="title-section">
+    <section id="title-section">
         <svg id="circle" height="700" width="1000">
             <circle cx="150" cy="400" r="450" fill="red" />
-            <div id="title-layer">
-                <div id="title-layer-two">
-                </div>
-                <div id="title">
-                    <h1>Miki Collins</h1>
-                    <h3>Full Stack Web Developer</h3>
-                </div>
-            </div>
         </svg>
-    </div>
+        <div id="title-layer">
+            <div id="title">
+                <h1>Playing with CSS</h1>
+                <p>This is a page I created to try out ideas I've come across while surfing the web.</p>
+                <p>This particular idea I was intimidated by at first. I thought how in the world did they get the circles to line up on each the two layers. Then it occurred to me, it was an illusion. There was only one circle on the background. A smaller div with a white background and a percentage opacity on top.  Box shadow was used to create the hovering effect.</p>
+            </div>
+        </div>
+    </section>
+    <section id="circuit">
+        <p class="circuit-text">Have you ever been scrolling down a page and see the background picture stay in place while the content below it moves over it?</p>
+        <p class="circuit-text">See how this is moving above the background as you scroll down?</p>
+        <p class="circuit-text">How do you do it?</p>
+        <p class="circuit-text">background-attachment: fixed</p>
+    </section>
 </body>
 
 </html>
